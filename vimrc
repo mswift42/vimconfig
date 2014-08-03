@@ -5,6 +5,8 @@ colo solarized
 set clipboard+=unnamed
 
 :set guioptions-=T
+:set guioptions+=LlRrb
+:set guioptions-=LlRrb
 let g:neocomplete#enable_at_startup = 1
 "Setup <Leader>
 :let mapleader = ","
